@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu';
+}
+
+.nav {
+  width: 100%;
+  height: 45px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.main {
+  margin: 100px auto 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+.main-movies {
+  width: 100%;
+  margin-top: 40px;
+  border: 2px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main-movie {
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.movie-title {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
